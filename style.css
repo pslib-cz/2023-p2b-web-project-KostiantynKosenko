@@ -1,0 +1,280 @@
+html{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: #E8CD9C;
+  margin: 0;
+}
+
+header{
+  background-image: url("./img/background.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 45%;
+  height: 45%;
+}
+
+#menu-icon{
+  display: block;
+}
+
+.navmenu{
+  position: absolute;
+  top: 100%;
+  right: -100%;
+  width: 100px;
+  height: 18vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  transition: all .50s ease;
+  background-color: rgba(0, 0, 0, 0.60);
+  border-radius: 20px;
+}
+
+.navmenu.open{
+  right: 0;
+}
+
+
+.navmenu li {
+  list-style-type: none;
+}
+
+.navmenu a {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  transition: all .55s ease;
+  text-decoration: none;
+}
+
+.navmenu a:hover {
+  border-bottom: 2px solid white;
+}
+
+#menu-icon {
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.main-text {
+  font-size: 1.4em;
+  width: 100%;
+  padding-top: 250px;
+  padding-left: 10px;
+  color: white;
+  align-items: center;
+  margin: 0;
+}
+
+.main-text p{
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.main-text h1{
+  margin: 0;
+}
+
+.info h2{
+  color: rgb(151, 32, 32);
+}
+
+.info-welcome{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.info-welcome--text{
+  text-align: center;
+}
+
+.info-welcome--img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.info-discover{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.info-discover--text{
+  text-align: center;
+}
+
+.info-discover--text h2{
+  margin: 0;
+}
+
+.info-discover--text h3{
+  margin: 0;
+}
+
+.info-discover--img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.info-wine{
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.info-wine--text{
+  text-align: center;
+}
+
+.info-wine--text h2{
+  margin: 0;
+}
+
+.info-wine--img{
+  width: 100%;
+  border-radius: 20px;
+  align-items: center;
+}
+
+footer{
+  background-color: #6F1C11;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: top;
+  justify-items: center;
+}
+
+.footer-maintext{
+  color: #F29B30;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+footer p{
+  font-size: 0.7em;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  html{
+      font-size: 1.5em;
+  }
+
+  .navmenu{
+      height: 27vh;
+      width: auto;
+  }
+
+  header{
+      height: 550px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  html{
+      font-size: 1.3em;
+  }
+
+  .logo{
+      height: 100%;
+      width: 100%;
+  }
+  
+  #menu-icon{
+   display: none;
+  } 
+
+  .navmenu {
+   position: static;
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   height: 10vh;
+ }
+
+ .navmenu a {
+   font-weight: 600;
+ }
+
+ .info-welcome{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+
+ .info-welcome--text p{
+  text-align: start;
+ }
+
+ .info-welcome--img{
+  height: 80%;
+  width: 95%;
+  margin: 30px;
+ }
+
+ .info-discover{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+
+ .info-discover--text p{
+  text-align: start;
+ }
+
+ .info-discover--img{
+  margin: 30px;
+  height: 80%;
+  width: 95%;
+ }
+
+ .info-wine{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+ }
+
+ .info-wine--text p{
+  text-align: start;
+ }
+
+}
+
+@media only screen and (min-width: 1440px){
+  html{
+      font-size: 2em;
+  }
+
+  header{
+      height: 900px;
+  }
+
+  .main-text{
+      padding-top: 500px;
+  }
+
+}
+
+
