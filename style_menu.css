@@ -1,22 +1,22 @@
 html{
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
-  }
+}
   
-  body {
+body {
     background-color: #E8CD9C;
     margin: 0;
-  }
+}
   
-  header{
+header{
     background-image: url("./img/background_menu.jpg");
     width: 100%;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
-  }
+}
   
-  .nav {
+.nav {
     position: fixed;
     right: 0;
     top: 0;
@@ -24,18 +24,18 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
+}
   
-  .logo{
+.logo{
     width: 45%;
     height: 45%;
-  }
+}
   
-  #menu-icon{
+#menu-icon{
     display: block;
-  }
+}
   
-  .navmenu{
+.navmenu{
     position: absolute;
     top: 100%;
     width: 100px;
@@ -47,37 +47,37 @@ html{
     transition: all .50s ease;
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 20px;
-  }
+}
   
-  .navmenu.open{
+.navmenu.open{
     right: 0;
-  }
+}
   
   
-  .navmenu li {
+.navmenu li {
     list-style-type: none;
-  }
+}
   
-  .navmenu a {
+.navmenu a {
     color: white;
     font-size: 1.5em;
     font-weight: 400;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
     text-decoration: none;
-  }
+}
   
-  .navmenu a:hover {
+.navmenu a:hover {
     border-bottom: 2px solid white;
-  }
+}
   
-  #menu-icon {
+#menu-icon {
     color: white;
     cursor: pointer;
     font-size: 35px;
-  }
+}
   
-  .main-text {
+.main-text {
     font-size: 2em;
     font-weight: 500;
     padding-top: 150px;
@@ -85,4 +85,32 @@ html{
     color: white;
     align-items: center;
     margin: 0;
-  }
+    text-decoration: underline;
+}
+
+.menu-steak{
+  color: #6F1C11;
+}
+
+.menu-steak h2{
+  text-align: center;
+}
+
+.menu-steak h3{
+  text-align: center;
+}
+
+.menu-steak--img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.menu-steak--beef{
+  border-bottom: solid 2px #6F1C11;
+}
+
+.menu-steak--chicken{
+  border-bottom: solid 2px #6F1C11;
+}
+
+
