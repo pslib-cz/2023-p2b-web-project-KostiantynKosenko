@@ -43,7 +43,7 @@ header{
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px;
   transition: all .50s ease;
   background-color: rgba(0, 0, 0, 0.60);
   border-radius: 20px;
