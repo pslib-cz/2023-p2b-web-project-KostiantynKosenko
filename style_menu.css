@@ -113,4 +113,23 @@ header{
   border-bottom: solid 2px #6F1C11;
 }
 
+footer{
+  background-color: #6F1C11;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: top;
+  justify-items: center;
+}
+
+.footer-maintext{
+  color: #F29B30;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+footer p{
+  font-size: 0.7em;
+  color: white;
+}
+
 
