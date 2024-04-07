@@ -88,11 +88,11 @@ header{
     text-decoration: underline;
 }
 
-.menu-steak{
+.menu{
   color: #6F1C11;
 }
 
-.menu-steak h2{
+.menu h2{
   text-align: center;
 }
 
@@ -133,3 +133,83 @@ footer p{
 }
 
 
+@media only screen and (min-width: 768px) {
+  html{
+      font-size: 1.5em;
+  }
+
+  .navmenu{
+      width: auto;
+  }
+
+  header{
+      height: 550px;
+  }
+
+  .main-text{
+    padding-top: 250px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  html{
+      font-size: 1.3em;
+  }
+
+  .logo{
+      height: 75%;
+      width: 75%;
+  }
+  
+  #menu-icon{
+   display: none;
+  } 
+
+  .navmenu {
+   position: static;
+   display: flex;
+   align-items: center;
+   background-color: transparent;
+   height: 10vh;
+   flex-direction: row;
+   gap: 1em;
+ }
+
+ .navmenu a {
+   font-weight: 600;
+ }
+
+ .menu-steak{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center; 
+  gap: 1em;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+
+ .menu img{
+  width: 100%;
+  height: 80%;
+ }
+
+ .main-text{
+  padding-top: 270px;
+  font-size: 3em;
+ }
+}
+
+@media only screen and (min-width: 1440px){
+  html{
+      font-size: 2em;
+  }
+
+  header{
+      height: 900px;
+  }
+
+  .main-text{
+      padding-top: 500px;
+  }
+
+}
