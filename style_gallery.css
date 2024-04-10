@@ -106,7 +106,6 @@ footer{
     background-color: #6F1C11;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: top;
     justify-items: center;
 }
   

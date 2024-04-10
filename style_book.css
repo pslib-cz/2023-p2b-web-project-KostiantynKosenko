@@ -108,6 +108,10 @@ header{
     border-radius: 40px;
 }
 
+.input-box input::placeholder{
+    color: #fff;
+}
+
 .btn{
     width: 90%;
     margin-left: 25px;
