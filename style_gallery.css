@@ -1,21 +1,21 @@
-html{
+html {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
 }
-  
+
 body {
     background-color: #E8CD9C;
     margin: 0;
 }
-  
-header{
+
+header {
     background-image: url("./img/background_gallery.jpg");
     width: 100%;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
+
 .nav {
     position: fixed;
     right: 0;
@@ -26,17 +26,17 @@ header{
     justify-content: space-between;
     margin-right: 1em;
 }
-  
-.logo{
+
+.logo {
     width: 45%;
     height: 45%;
 }
-  
-#menu-icon{
+
+#menu-icon {
     display: block;
 }
-  
-.navmenu{
+
+.navmenu {
     position: absolute;
     top: 100%;
     width: 100px;
@@ -49,16 +49,16 @@ header{
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 20px;
 }
-  
-.navmenu.open{
+
+.navmenu.open {
     right: 0;
 }
-  
-  
+
+
 .navmenu li {
     list-style-type: none;
 }
-  
+
 .navmenu a {
     color: white;
     font-size: 1.5em;
@@ -67,11 +67,11 @@ header{
     transition: all .55s ease;
     text-decoration: none;
 }
-  
+
 .navmenu a:hover {
     border-bottom: 2px solid white;
 }
-  
+
 #menu-icon {
     color: white;
     cursor: pointer;
@@ -81,7 +81,7 @@ header{
 .main-text {
     font-size: 2em;
     font-weight: 500;
-    padding-top: 200px;
+    padding-top: 280px;
     padding-left: 40px;
     color: white;
     align-items: center;
@@ -89,96 +89,106 @@ header{
     text-decoration: underline;
 }
 
-.gallery{
+/*.gallery a{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+}*/
+
+.gallery {
+    margin-left: 20px;
 }
 
-.gallery img{
+.gallery img {
     width: 95%;
     margin-top: 10px;
     border-radius: 10px;
 }
 
-footer{
+footer {
     margin-top: 10px;
     background-color: #6F1C11;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
-  
-.footer-maintext{
+
+.footer-maintext {
     color: #F29B30;
     font-size: 1.2em;
     font-weight: bold;
 }
-  
-footer p{
+
+footer p {
     font-size: 0.7em;
     color: white;
 }
+
+footer a {
+    font-size: 0.7em;
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
-    html{
+    html {
         font-size: 1.5em;
     }
 
-    .navmenu{
+    .navmenu {
         width: auto;
     }
 
-    header{
+    header {
         height: 550px;
     }
 }
 
-@media only screen and (min-width: 1024px){
-    html{
+@media only screen and (min-width: 1024px) {
+    html {
         font-size: 1.3em;
     }
 
-    .logo{
+    .logo {
         height: 75%;
         width: 75%;
     }
-    
-    #menu-icon{
-     display: none;
-    } 
-  
-    .navmenu {
-     position: static;
-     display: flex;
-     align-items: center;
-     background-color: transparent;
-     height: 10vh;
-     flex-direction: row;
-     gap: 1em;
-   }
-  
-   .navmenu a {
-     font-weight: 600;
-   }
 
-   .gallery img{
-    width: 48%;
-    margin: 4px;
-   }
+    #menu-icon {
+        display: none;
+    }
+
+    .navmenu {
+        position: static;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        height: 10vh;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .navmenu a {
+        font-weight: 600;
+    }
+
+    .gallery img {
+        width: 48%;
+        margin: 4px;
+    }
 }
 
-@media only screen and (min-width: 1440px){
-    html{
+@media only screen and (min-width: 1440px) {
+    html {
         font-size: 2em;
     }
-  
-    header{
+
+    header {
         height: 900px;
     }
-  
-    .main-text{
+
+    .main-text {
         padding-top: 500px;
     }
-  
-  }
+
+}

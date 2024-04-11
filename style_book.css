@@ -1,21 +1,21 @@
-html{
+html {
     font-family: 'Poppins', sans-serif;
     font-size: 1em;
 }
-  
+
 body {
     background-color: #E8CD9C;
     margin: 0;
 }
-  
-header{
+
+header {
     background-image: url("./img/background-book.jpg");
     width: 100%;
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-  
+
 .nav {
     position: fixed;
     right: 0;
@@ -26,17 +26,17 @@ header{
     justify-content: space-between;
     margin-right: 1em;
 }
-  
-.logo{
+
+.logo {
     width: 45%;
     height: 45%;
 }
-  
-#menu-icon{
+
+#menu-icon {
     display: block;
 }
-  
-.navmenu{
+
+.navmenu {
     position: absolute;
     top: 100%;
     width: 100px;
@@ -49,16 +49,16 @@ header{
     background-color: rgba(0, 0, 0, 0.60);
     border-radius: 20px;
 }
-  
-.navmenu.open{
+
+.navmenu.open {
     right: 0;
 }
-  
-  
+
+
 .navmenu li {
     list-style-type: none;
 }
-  
+
 .navmenu a {
     color: white;
     font-size: 1.5em;
@@ -67,33 +67,35 @@ header{
     transition: all .55s ease;
     text-decoration: none;
 }
-  
+
 .navmenu a:hover {
     border-bottom: 2px solid white;
 }
-  
+
 #menu-icon {
     color: white;
     cursor: pointer;
     font-size: 35px;
 }
-  
+
 .main-text {
-    font-size: 1.4em;
-    width: 100%;
+    font-size: 1.5em;
+    font-weight: 500;
     padding-top: 250px;
+    padding-left: 40px;
     color: white;
     align-items: center;
     margin: 0;
+    text-decoration: underline;
 }
-  
-.wrapper h1{
+
+.wrapper h1 {
     color: #fff;
     text-align: center;
     margin-top: 100px;
 }
 
-.input-box{
+.input-box {
     position: relative;
     padding-left: 25px;
     width: 90%;
@@ -101,7 +103,7 @@ header{
     margin: 10px 0;
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -109,11 +111,11 @@ header{
     border-radius: 40px;
 }
 
-.input-box input::placeholder{
+.input-box input::placeholder {
     color: #fff;
 }
 
-.btn{
+.btn {
     width: 90%;
     margin-left: 25px;
     height: 50px;
@@ -123,68 +125,91 @@ header{
     cursor: pointer;
 }
 
+footer {
+    background-color: #6F1C11;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.footer-maintext {
+    color: #F29B30;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 0.7em;
+    color: white;
+}
+
+footer a {
+    font-size: 0.7em;
+    color: white;
+}
+
 @media only screen and (min-width: 768px) {
-    html{
+    html {
         font-size: 1.5em;
     }
-  
-    .navmenu{
+
+    .navmenu {
         width: auto;
     }
-  
-    header{
+
+    header {
         height: 550px;
     }
 
-    .wrapper{
+    .wrapper {
         margin: 50px;
     }
 }
 
-@media only screen and (min-width: 1024px){
-    html{
+@media only screen and (min-width: 1024px) {
+    html {
         font-size: 1.3em;
     }
-  
-    .logo{
+
+    .logo {
         height: 75%;
         width: 75%;
     }
-    
-    #menu-icon{
-     display: none;
-    } 
-  
+
+    #menu-icon {
+        display: none;
+    }
+
     .navmenu {
-     position: static;
-     display: flex;
-     align-items: center;
-     background-color: transparent;
-     height: 10vh;
-     flex-direction: row;
-     gap: 1em;
-   }
-  
-   .navmenu a {
-     font-weight: 600;
-   }
+        position: static;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        height: 10vh;
+        flex-direction: row;
+        gap: 1em;
+    }
+
+    .navmenu a {
+        font-weight: 600;
+    }
 }
 
-@media only screen and (min-width: 1440px){
-    html{
+@media only screen and (min-width: 1440px) {
+    html {
         font-size: 2em;
     }
-  
-    header{
+
+    header {
         height: 900px;
     }
-  
-    .main-text{
+
+    .main-text {
         padding-top: 500px;
     }
 
-    .wrapper{
+    .wrapper {
         margin: 200px;
     }
-  
+
 }

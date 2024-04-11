@@ -1,80 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/img/logo1.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style_gallery.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet"
-    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
-    <title>Grilled Steakhouse</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/logo1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style_gallery.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css" />
+  <title>Grilled Steakhouse</title>
 </head>
+
 <body>
-    <header>
-        <section>
-            <div class="nav">
-                <div>
-                    <img class="logo" src="./img/logo1.png" alt="Steakhouse">
-                </div>
-    
-                <nav class="navmenu">
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./book.html">Book</a></li>
-                  <li><a href="#">Nic</a></li>
-                  <li><a href="./menu.html">Menu</a></li>
-                </nav>
-                
-    
-            <div class="bx bx-menu " id="menu-icon"></div>
-        </section>
-            <div class="main-text">
-              <p>GALLERY</p>
-            </div>
-        </section>
-    </header>
-    <article>
-        <div class="gallery">
-          <img src="./img/gallery1.jpg" alt="restaurant">
-          <img src="./img/gallery2.jpg" alt="restaurant">
-          <img src="./img/gallery3.jpg" alt="restaurant">
-          <img src="./img/gallery4.jpg" alt="restaurant">
-          <img src="./img/gallery5.jpg" alt="restaurant">
-          <img src="./img/gallery6.jpg" alt="restaurant">
-        </div>
-    </article>
-    <footer>
+  <header>
+    <section>
+      <div class="nav">
         <div>
-          <p class="footer-maintext">MENU</p>
-          <p>Images</p>
-          <p>About</p>
-          <p>Contact</p>
+          <img class="logo" src="./img/logo1.png" alt="Steakhouse">
         </div>
-        <div>
-          <p class="footer-maintext">SERVICE</p>
-          <p>Pure</p>
-          <p>High Quality</p>
-          <p>Exccellent</p>
-        </div>
-        <div>
-          <p class="footer-maintext">Contact</p>
-          <p>e-mail: steak.house@gmail.com</p>
-          <p>tel: +420 859 487 635</p>
-          <p>tel: +420 356 852 456</p>
-        </div>
-      </footer>
-<script src="script.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js" integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <nav class="navmenu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./book.html">Book</a></li>
+          <li><a href="#">Nic</a></li>
+          <li><a href="./menu.html">Menu</a></li>
+        </nav>
 
-<script>
 
-  lightGallery(document.querySelector('gallery'));
+        <div class="bx bx-menu " id="menu-icon"></div>
+    </section>
+    <div class="main-text">
+      <p>GALLERY</p>
 
-</script>
+
+    </div>
+    </section>
+  </header>
+  <article>
+    <div id="lightgallery" class="gallery">
+      <a href="./img/gallery1.jpg"><img src="./img/gallery1.jpg" alt="restaurant"></a>
+      <a href="./img/gallery2.jpg"><img src="./img/gallery2.jpg" alt="restaurant"></a>
+      <a href="./img/gallery3.jpg"><img src="./img/gallery3.jpg" alt="restaurant"></a>
+      <a href="./img/gallery4.jpg"><img src="./img/gallery4.jpg" alt="restaurant"></a>
+      <a href="./img/gallery5.jpg"><img src="./img/gallery5.jpg" alt="restaurant"></a>
+      <a href="./img/gallery6.jpg"><img src="./img/gallery6.jpg" alt="restaurant"></a>
+    </div>
+  </article>
+  <footer>
+    <div>
+      <p class="footer-maintext">MENU</p>
+      <p>Images</p>
+      <p>About</p>
+      <p>Contact</p>
+    </div>
+    <div>
+      <p class="footer-maintext">SERVICE</p>
+      <p>Pure</p>
+      <p>High Quality</p>
+      <p>Exccellent</p>
+    </div>
+    <div>
+      <p class="footer-maintext">Contact</p>
+      <a href="mailto:steak.house@gmail.com">
+        e-mail: steak.house@gmail.com
+      </a><br>
+      <a href="tel:+420 859 487 635 ">tel: +420 859 487 635</a><br>
+      <a href="tel:+420 356 852 456 ">tel: +420 356 852 456</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+    integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script type="module">
+    import lightgallery from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/+esm";
+    import lgThumbnail from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/+esm";
+    import lgZoom from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/+esm";
+    import lgAutoplay from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/autoplay/+esm";
+    lightgallery(document.querySelector(".gallery"), {
+      selector: document.querySelectorAll(".gallery a"),
+      plugins: [lgThumbnail, lgZoom, lgAutoplay],
+      slideShowAutoplay: false,
+      slideShowInterval: 2000,
+      subHtmlSelectorRelative: false,
+      allowMediaOverlap: false,
+    });
+  </script>
 
 </body>
+
 </html>
