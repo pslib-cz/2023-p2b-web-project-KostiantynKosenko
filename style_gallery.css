@@ -89,20 +89,18 @@ header {
     text-decoration: underline;
 }
 
-/*.gallery a{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-}*/
 
-.gallery {
-    margin-left: 20px;
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
+.gallery a{
+}
+
+
 .gallery img {
-    width: 95%;
-    margin-top: 10px;
+    width: 100%;
     border-radius: 10px;
 }
 
