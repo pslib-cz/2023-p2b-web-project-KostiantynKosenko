@@ -16,6 +16,11 @@ header {
   background-repeat: no-repeat;
 }
 
+header.sticky .nav{
+  background: #6F1C11;
+  transition: 0.5s;
+}
+
 .nav {
   position: fixed;
   right: 0;
@@ -24,7 +29,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 1em;
+  padding: 20px;
 }
 
 .logo {
