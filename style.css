@@ -101,6 +101,10 @@ header.sticky .nav{
   margin: 0;
 }
 
+.info{
+  overflow: hidden;
+}
+
 .info h2 {
   color: rgb(151, 32, 32);
 }
